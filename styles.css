@@ -24,6 +24,7 @@
     background-color: rgb(43, 14, 43);
     border: 1px solid rgb(55, 32, 32);
     margin-left: 250px;
+    color: #ffffff;
 
 
 }
@@ -38,7 +39,7 @@ html{
 .main-section header{
     font-size: 1.5em;
     text-decoration: underline;
-    color:black !important;
+    color:#ffffff !important;
     margin-top: 1.5rem;
 }
 

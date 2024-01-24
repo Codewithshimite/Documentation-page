@@ -1,0 +1,167 @@
+#navbar{
+    position: fixed;
+    left:0;
+    padding:20px;
+    /* border: 1px solid black; */
+    width: 13%;
+    background-color: #ffffff;
+}
+#navbar header{
+    font-size: 2em;
+    margin-bottom: 7;
+   
+}
+#navbar a{
+    text-decoration: none;
+    display: block;
+    margin: 15px;
+}
+#main-doc{
+    margin: 0auto;
+}
+
+.body-section{
+    background-color: rgb(43, 14, 43);
+    border: 1px solid rgb(55, 32, 32);
+    margin-left: 250px;
+
+
+}
+#navbar  header{
+    font-size: 1.2em;
+    font-weight: italic;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.main-section header{
+    font-size: 1.5em;
+    text-decoration: underline;
+    color:black !important;
+    margin-top: 1.5rem;
+}
+
+p{
+margin: 1rem;
+line-height: 2.6;
+}
+
+code{
+    font-style: italic;
+    font-size: small;
+    background-color: rgb(1, 1, 1);
+    height: 25px;
+    display: block;
+   padding-top: 10px;
+  
+}
+li{
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.top{
+    margin-top:50px;;
+    background-color: rgb(43, 14, 43);
+    align-items: end;
+
+}
+
+span{
+    font-size: 2rem;
+}
+
+
+
+@media (min-width: 500px) and (max-width: 1000px){
+    #main-doc{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #navbar{
+        position: static;
+        left:0;
+        padding:20px;
+        border: 1px solid black;
+        overflow: scroll;
+        height: 200px;
+        width: auto
+       
+    }
+
+    .body-section{
+    margin-left: 0%;
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (orientation: portrait){
+
+    #main-doc{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #navbar{
+        position: static;
+        left:0;
+        padding:20px;
+        border: 1px solid black;
+        overflow: scroll;
+        height: 200px;
+        width: auto
+       
+    }
+
+    .body-section{
+    margin-left: 0%;
+    }
+
+ }
+ 
+@media only screen and (min-width: 280px) and (orientation: portrait){
+
+    #main-doc{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #navbar{
+        position: static;
+        left:0;
+        padding:20px;
+        border: 1px solid black;
+        overflow: scroll;
+        height: 200px;
+        width: auto
+       
+    }
+
+    .body-section{
+    margin-left: 0%;
+    }
+    #navbar header{
+        font-size: 1.5em;
+        margin-bottom: 7;
+       
+    }
+
+ }
+
+ @media only screen and (min-width: 1024px) and (orientation: landscape){
+
+    
+    #navbar header{
+        font-size: 1em;
+        margin-bottom: 7;
+       
+    }
+
+    
+
+ }
